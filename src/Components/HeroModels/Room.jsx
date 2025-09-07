@@ -8,7 +8,7 @@ import { useGLTF,useTexture } from '@react-three/drei'
 import * as THREE from 'three'
 import { BlendFunction } from "postprocessing";
 import { EffectComposer, SelectiveBloom } from "@react-three/postprocessing";
-export function Room(props) {
+const Room=(props)=> {
    const screensRef = useRef();
   const matcapTexture =useTexture('../../../public/images/textures/mat1.png');
   const { nodes, materials } = useGLTF('../../../public/models/optimized-room.glb')
@@ -173,3 +173,4 @@ export function Room(props) {
 }
 
 useGLTF.preload("/models/optimized-room.glb");
+export default Room
