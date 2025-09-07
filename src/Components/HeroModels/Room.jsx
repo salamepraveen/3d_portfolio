@@ -12,12 +12,9 @@ import { useTexture } from "@react-three/drei";
 
 
 const Room=(props)=> {
-   const screensRef = useRef();
+  const screensRef = useRef();
 
- 
-   
-
-  const matcapTexture = useTexture("/images/textures/mat1.png");
+  const matcapTexture = useTexture("/mat1.png");
   const { nodes, materials } = useGLTF("/models/optimized-room.glb");
 
    const curtainMaterial = new THREE.MeshPhongMaterial({
