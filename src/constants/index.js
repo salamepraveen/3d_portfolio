@@ -1,12 +1,12 @@
 const words =[
-    {text:'Ideas' , imgPath:'../../public/images/ideas.svg'},
-    {text:'Concepts' , imgPath:'../../public/images/ideas.svg'},
-    {text:'Designs' , imgPath:'../../public/images/ideas.svg'},
-    {text:'Code' , imgPath:'../../public/images/ideas.svg'},
-    {text:'Wraith' , imgPath:'../../public/images/ideas.svg'},
-     {text:'Designs' , imgPath:'../../public/images/ideas.svg'},
-    {text:'Code' , imgPath:'../../public/images/ideas.svg'},
-    {text:'Wraith' , imgPath:'../../public/images/ideas.svg'}
+    {text:'Ideas' , imgPath:'/images/ideas.svg'},
+    {text:'Concepts' , imgPath:'/images/ideas.svg'},
+    {text:'Designs' , imgPath:'/images/ideas.svg'},
+    {text:'Code' , imgPath:'/images/ideas.svg'},
+    {text:'Wraith' , imgPath:'/images/ideas.svg'},
+     {text:'Designs' , imgPath:'/images/ideas.svg'},
+    {text:'Code' , imgPath:'/images/ideas.svg'},
+    {text:'Wraith' , imgPath:'/images/ideas.svg'}
 ]
 const navLinks = [
   {
