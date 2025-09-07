@@ -13,8 +13,13 @@ import { useTexture } from "@react-three/drei";
 
 const Room=(props)=> {
    const screensRef = useRef();
+<<<<<<< HEAD
     const matcapTexture = useTexture('/images/textures/mat1.png');
     const { nodes, materials } = useGLTF("/models/optimized-room.glb");
+=======
+   const matcapTexture = useTexture("/images/textures/mat1.png");
+  const { nodes, materials } = useGLTF("/models/optimized-room.glb");
+>>>>>>> 5398563098214c78af9b895daf018ff17f1d5107
    const curtainMaterial = new THREE.MeshPhongMaterial({
     color: "#d90429",
   });
