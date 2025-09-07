@@ -4,16 +4,17 @@ Command: npx gltfjsx@6.5.3 optimized-room.glb
 */
 
 import React, { useRef } from "react";
-import { useGLTF,useTexture } from '@react-three/drei'
+import { useGLTF} from '@react-three/drei'
 import * as THREE from 'three'
 import { BlendFunction } from "postprocessing";
 import { EffectComposer, SelectiveBloom } from "@react-three/postprocessing";
+import { useTexture } from "@react-three/drei";
 
 
 const Room=(props)=> {
    const screensRef = useRef();
-    const matcapTexture = useTexture("/images/textures/mat1.png");
-  const { nodes, materials } = useGLTF("/models/optimized-room.glb");
+    const matcapTexture = useTexture('/images/textures/mat1.png');
+    const { nodes, materials } = useGLTF("/models/optimized-room.glb");
    const curtainMaterial = new THREE.MeshPhongMaterial({
     color: "#d90429",
   });
