@@ -12,7 +12,7 @@ import { EffectComposer, SelectiveBloom } from "@react-three/postprocessing";
 
 const Room=(props)=> {
    const screensRef = useRef();
-    const matcapTexture = useTexture("/images/textures/mat1.png");
+   const matcapTexture = useTexture("/images/textures/mat1.png");
   const { nodes, materials } = useGLTF("/models/optimized-room.glb");
    const curtainMaterial = new THREE.MeshPhongMaterial({
     color: "#d90429",
